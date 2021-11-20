@@ -20,10 +20,9 @@ h1 {
 }
 
 .myfirstlist {
-  text-decoration: none;
+  list-style-type: none;
   padding: 2em;
   text-align: center;
-  text-decoration-style: none;
 }
 
 .li01,
