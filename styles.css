@@ -6,9 +6,13 @@ h1 {
   font-weight: bold;
 }
 
-#herobody {
+.container {
   background-color: lightblue;
   font-family: Verdana, sans-serif;
+}
+
+#herobody {
+  background-color: cornsilk;
 }
 
 #mainheader {
@@ -17,6 +21,16 @@ h1 {
 
 .myfirstlist {
   text-decoration: none;
-  background-color: cadetblue;
   padding: 2em;
+  text-align: center;
+  text-decoration-style: none;
+}
+
+.li01,
+.li02,
+.li03 {
+  color: black;
+  font-size: 18px;
+  padding: 1.5em;
+  background-color: lightsalmon;
 }
