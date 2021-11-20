@@ -1,18 +1,18 @@
 h1 {
-  background-color: teal;
+  background-color: goldenrod;
   color: white;
-  font-size: 32px;
+  font-size: 38px;
   text-align: center;
   font-weight: bold;
 }
 
 .container {
-  background-color: lightblue;
+  background-color: white;
   font-family: Verdana, sans-serif;
 }
 
 #herobody {
-  background-color: cornsilk;
+  background-color: white;
 }
 
 #mainheader {
@@ -25,11 +25,32 @@ h1 {
   text-align: center;
 }
 
+a:link {
+  list-style-type: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul a:link {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+a {
+  color: inherit;
+}
+
 .li01,
 .li02,
 .li03 {
   color: black;
-  font-size: 18px;
-  padding: 1.5em;
-  background-color: lightsalmon;
+  font-size: 28px;
+  padding: 2em;
+  margin: 1.5em;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: sandybrown;
+  text-decoration: none;
+  list-style-type: none;
 }
