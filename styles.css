@@ -1,11 +1,13 @@
 h1 {
   background-color: goldenrod;
   color: white;
-  font-size: 38px;
+  font-size: 40px;
   text-align: center;
   font-weight: bold;
 }
-
+/* {
+  border: 2px solid red;
+}*/
 .container {
   background-color: white;
   font-family: Verdana, sans-serif;
@@ -45,7 +47,7 @@ a {
 .li02,
 .li03 {
   color: black;
-  font-size: 28px;
+  font-size: 25px;
   padding: 2em;
   margin: 1.5em;
   margin-left: 20%;
