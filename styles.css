@@ -64,3 +64,8 @@ a {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+button {
+  margin-left: 1em;
+  padding: 0.5em;
+}
