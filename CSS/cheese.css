@@ -1,0 +1,19 @@
+/*
+.container {
+  display: flex;
+  /* background-color: brown;*/
+padding: 1.5em;
+justify-content: space-between;
+gap: 15px;
+flex-wrap: wrap; /*Now, should your items be too large
+   to all display in one line, they will wrap onto another line.*
+}
+
+.item {
+  align-items: center;
+}
+
+img {
+  width: 580px;
+} 
+*/

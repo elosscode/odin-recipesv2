@@ -1,29 +1,27 @@
+body {
+  background-color: lemonchiffon;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
 h1 {
-  background-color: goldenrod;
-  color: white;
-  font-size: 40px;
+  color: sienna;
+  font-size: 53px;
   text-align: center;
   font-weight: bold;
+  margin-top: 1em;
 }
+
 /* {
   border: 2px solid red;
 }*/
-.container {
-  background-color: white;
-  font-family: Verdana, sans-serif;
-}
-
-#herobody {
-  background-color: white;
-}
 
 #mainheader {
-  padding: 1.5em;
+  padding: 1em;
 }
 
 .myfirstlist {
   list-style-type: none;
-  padding: 2em;
+  padding: 0em;
   text-align: center;
 }
 
@@ -31,6 +29,7 @@ a:link {
   list-style-type: none;
   text-decoration: none;
   cursor: pointer;
+  font-weight: bold;
 }
 
 ul a:link {
@@ -43,17 +42,25 @@ a {
   color: inherit;
 }
 
-.li01,
+/*.li01,
 .li02,
 .li03 {
+  width: 501px;
   color: black;
   font-size: 25px;
   padding: 2em;
-  margin: 1.5em;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: 0em;
   margin-bottom: 0em;
   background-color: sandybrown;
   text-decoration: none;
   list-style-type: none;
+}*/
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin-top: 1em;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
